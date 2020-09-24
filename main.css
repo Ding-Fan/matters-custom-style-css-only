@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap");
+
+
+::selection {
+    background-color: #dbdbdb;
+}
+
+html {
+    background-color: #404040;
+    color: #040404;
+}
+
+html body div#__next main.l-row.full article.l-col-three-mid div section.toolbar {
+    background: none;
+    opacity: .05;
+    transition: all 0.2s ease-in-out;
+}
+
+html body div#__next main.l-row.full article.l-col-three-mid div section.toolbar:hover {
+    opacity: 1;
+}
+
+html body div#__next main.l-row.full article.l-col-three-mid header.solid-fixed {
+    background: none;
+    opacity: .05;
+    transition: all 0.2s ease-in-out;
+}
+
+html body div#__next main.l-row.full article.l-col-three-mid header.solid-fixed:hover {
+    opacity: 1;
+}
+
+html body div#__next main.l-row.full nav.l-col-three-left.u-sm-down-hide {
+    opacity: .05;
+    transition: all 0.2s ease-in-out;
+}
+
+html body div#__next main.l-row.full nav.l-col-three-left.u-sm-down-hide:hover {
+    opacity: 1;
+}
+
+html body div#__next main.l-row.full aside.l-col-three-right.u-lg-down-hide {
+    opacity: .05;
+    transition: all 0.2s ease-in-out;
+}
+
+html body div#__next main.l-row.full aside.l-col-three-right.u-lg-down-hide:hover {
+    opacity: 1;
+}
+
+html body div#__next main.l-row.full article.l-col-three-mid div section.list.has-border section.list-item section.card.spacing-y-base.spacing-x-base.bg-white {
+    background-color: #404040;
+}
+
+/* https://stackoverflow.com/a/6245879 */
+/* https://nipponcolors.com/ */
+html body div#__next main.l-row.full article.l-col-three-mid nav.sticky {
+    background-color: #404040;
+    box-shadow: 0 4px 2px -2px #393939;
+}
+
+/*
+html body div#__next main.l-row.full article.l-col-three-mid div section.list.has-border section.list-item:nth-of-type(odd) section.card.spacing-y-base.spacing-x-base.bg-white {
+    background-color: #404040;
+}
+
+html body div#__next main.l-row.full article.l-col-three-mid div section.list.has-border section.list-item:nth-of-type(even) section.card.spacing-y-base.spacing-x-base.bg-white {
+    background-color: #828282;
+}
+*/
+
+html body div#__next main.l-row.full article.l-col-three-mid div > section.content {
+    background: none;
+    font-family: 'Noto Serif SC', serif;
+    box-shadow: 0 0 2px 2px #393939;
+}
+
+/* Editor */
+.editor-title > input:nth-child(1) {
+    background-color: #404040;
+}
+
+#editor-article-container {
+    font-family: 'Noto Serif SC', serif;
+}
